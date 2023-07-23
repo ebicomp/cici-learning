@@ -5,7 +5,7 @@ name: .NET
 
 on:
   repository_dispatch:
-    type:[run_my_workflow]
+    type: [run_my_workflow]
 
 jobs:
   build:
